@@ -1,0 +1,14 @@
+torch==1.12.1+cu116
+numpy==1.19.2
+opencv-python==4.6.0.66
+sklearn==0.0post1
+matplotlib==3.6.1
+torchvision==0.13.1
+tensorboard==2.10.0
+opencv-python
+math
+glob2
+tqdm
+random
+pillow
+warnings
