@@ -3,7 +3,7 @@ Enhancing Visual Place Recognition in Spatial Domain on Aerial Vehicle Platforms
 
 | Aerial localisation
 | :-------------------------:
-| ![image](https://github.com/cbbhuxx/GeoCluster/blob/main/img/example_localisation.gif)
+| ![image](https://github.com/cbbhuxx/GeoCluster/blob/master/img/example_localisation.gif)
 
 ## Prerequisites
  - torch 
