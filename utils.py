@@ -80,7 +80,7 @@ def set_model(opt, device):
     if opt.model == 'GeoCluser':
         random_tensor = torch.randn(1, 3, opt.height, opt.weight)
         temp = model.encoder(random_tensor).to(device)
-        net_vlad = geocluser.NetVLAD(opt=opt, num_clusters=64, dim=encoder_dim, vladv2=False, temp=temp)
+        net_vlad = geocluser.GeoCluser(opt=opt, num_clusters=64, dim=encoder_dim, vladv2=False, temp=temp)
     elif opt.model == 'NetVlad':
         net_vlad = netvlad.NetVLAD(num_clusters=64, dim=encoder_dim, vladv2=False)
     model.add_module('pool', net_vlad)

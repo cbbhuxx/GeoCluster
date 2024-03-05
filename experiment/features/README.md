@@ -1,0 +1,1 @@
+## In this folder is stored the database (encoding of the map tiles).

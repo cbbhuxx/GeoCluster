@@ -8,8 +8,8 @@ from torch.nn import functional as f
 
 
 # based on https://github.com/lyakaap/NetVLAD-pytorch/blob/master/netvlad.py
-class NetVLAD(nn.Module):
-    """NetVLAD layer implementation"""
+class GeoCluser(nn.Module):
+    """GeoCluser layer implementation"""
 
     def __init__(self,opt, num_clusters=64, dim=128,
                  normalize_input=True, vladv2=False, temp=torch.randn(1, 64, 30, 30)):
@@ -26,7 +26,7 @@ class NetVLAD(nn.Module):
             vladv2 : bool
                 If true, use vladv2 otherwise use vladv1
         """
-        super(NetVLAD, self).__init__()
+        super(GeoCluser, self).__init__()
         self.opt = opt
         self.num_clusters = num_clusters
         self.dim = dim

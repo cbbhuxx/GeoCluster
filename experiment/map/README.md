@@ -1,0 +1,1 @@
+## Add a satellite map of the flight area in this folder.

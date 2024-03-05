@@ -1,0 +1,1 @@
+## Store the camera images in this folder.
