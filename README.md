@@ -21,9 +21,9 @@ Please see "requirements.txt" for a detailed list of packages and versions.
  experiment\
  ├── features
  |   ├── Beijing
- |   |   ├── Beijing_feature_1.00.npy
- |   |   ├── Beijing_feature_0.85.npy
- |   |   ├── Beijing_feature_0.85.npy
+ |   |   ├── Beijing_feature_GeoCluser_1.00.npy
+ |   |   ├── Beijing_feature_GeoCluser_0.85.npy
+ |   |   ├── Beijing_feature_GeoCluser_0.85.npy
  ├── map
  |   ├── Beijing.tif   
  ├── query_images
