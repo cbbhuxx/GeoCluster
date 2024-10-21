@@ -57,8 +57,8 @@ def update_weights(opt, particles, area_range, aerial_features, map_features):
     y, x = lat2xy(area_range, particles[:, 0], particles[:, 1])
 
     if opt.ratio == "1.00":             # The area where the center point of the map tile is located
-        y = (y - 250) * H / 2410 - 1    # y = (y-tile.height) * H / map.height - 1
-        x = (x - 370) * W / 4130 - 1    # x = (x-tile.weight) * W / map.weight - 1
+        y = (y - 250) * H / 2410 - 1    # y = (y-tile.height/2) * H / (map.height-tile.height) - 1
+        x = (x - 370) * W / 4130 - 1    # x = (x-tile.width/2) * W / (map.width-tile.width) - 1
     elif opt.ratio == "0.85":
         y = (y - 235) * H / 2440 - 1
         x = (x - 315) * W / 4240 - 1
